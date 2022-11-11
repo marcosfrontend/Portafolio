@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CDN DE BOXICONS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- ICONOS DE BOXICON  -->
+    <link rel="stylesheet" href="css/boxicons.min.css" />
+    <!-- ESTILOS CSS -->
+    <link rel="stylesheet" href="estilo.css" />
+    <!-- MANIFIESTO DE PWA -->
+    <link rel="manifest" href="manifiesto.webmanifest">
+    <title>Portfolio</title>
+  </head>
+  <body>
+
+    <div class="contenedor-inicio" id="inicio">
+      <!-- MENU ENCABEZADO -->
+      <div class="contenedor-header">
+        <header>
+          <div class="logo">
+            <img class="img" src="/img/Logo.png" alt="" />
+          </div>
+          <nav id="nav">
+            <ul>
+              <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+              <li><a href="#sobremi" onclick="seleccionar()">Sobre mi</a></li>
+              <li><a href="#skills" onclick="seleccionar()">Habilidades</a></li>
+              <li><a href="#servicios" onclick="seleccionar()">Servicios</a></li>
+              <li><a href="#curriculum" onclick="seleccionar()">Curriculum</a></li>
+              <li><a href="#portfolio" onclick="seleccionar()">Portafolio</a></li>
+              <li><a href="#contacto" onclick="seleccionar()">Contacto</a></li>
+            </ul>
+          </nav>
+          <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+            <i class='bx bx-menu bx-lg'></i>
+          </div>
+        </header>
+      </div>
+
+      <div class="cadenas-content">
+        <div class="cadenas-texto">
+          <div class="texto-1">¡Hola!, mi nombre es</div>
+          <div class="texto-2">Marcos, Salas</div>
+          <div class="texto-3">Soy <span class="typed"></span></div>
+        </div>
+        <div class="contenedor-img"><img width="960" height="640" src="/img/Perrito.png" /></div>
+      </div>
+      <a href="#contacto" class="btn-md">Contactame</a>
+    </div>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+      <div class="contenido-seccion">
+        <h2>Sobre Mí</h2>
+        <p>
+          <span>Hola, soy Marcos Salas</span> Soy un diseñador visual con un
+          fuerte enfoque en la marca digital. El diseño visual busca atraer,
+          inspirar, crear deseos y motivar a las personas a visitar tu web, con
+          miras a generar un impacto favorable.
+        </p>
+
+        <div class="fila">
+          <!-- datos personales -->
+          <div class="col">
+            <h3>Datos Personales</h3>
+            <ul>
+              <li>
+                <strong>Cumpleaños</strong>
+                06-01-2001
+              </li>
+              <li>
+                <strong>Teléfono</strong>
+                391 125 97 51
+              </li>
+              <li>
+                <strong>Email</strong>
+                isidromarcos19@gmail.com
+              </li>
+              <li>
+                <strong>Dirección</strong>
+                73080 Xicotepec de Juaréz Puebla
+              </li>
+            </ul>
+          </div>
+
+          <!-- intereses -->
+          <div class="col">
+            <h3>Intereses</h3>
+            <div class="contenedor-intereses">
+              <div class="interes">
+                <i class="bx bx-joystick bx-lg"></i>
+                <span>JUEGOS</span>
+              </div>
+              <div class="interes">
+                <i class="bx bxs-music bx-lg"></i>
+                <span>MUSICA</span>
+              </div>
+              <div class="interes">
+                <i class='bx bxs-plane-alt bx-lg'></i>
+                <span>VIAJAR</span>
+              </div>
+              <div class="interes">
+                <i class='bx bxl-windows bx-lg'></i>
+                <span>WINDOWS</span>
+              </div>
+              <div class="interes">
+                <i class="bx bx-run bx-lg"></i>
+                <span>DEPORTE</span>
+              </div>
+              <div class="interes">
+                <i class='bx bxs-book bx-lg'></i>
+                <span>LIBROS</span>
+              </div>
+              <div class="interes">
+                <i class='bx bxs-car bx-lg'></i>
+                <span>AUTOS</span>
+              </div>
+              <div class="interes">
+                <i class='bx bxs-camera bx-lg'></i>
+                <span>FOTOS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+      <div class="contenido-seccion">
+        <h2>Habilidades</h2>
+        <div class="fila">
+          <!-- Technical Skill -->
+          <div class="col">
+            <h3>Habilidades Tecnicas</h3>
+            <div class="contenido-habilidades">
+              <div class="skill">
+                <i class="bx bxl-bootstrap bx-lg"></i>
+                <h6>bootstrap</h6>
+              </div>
+              <div class="skill">
+                <i class="bx bxl-react bx-lg"></i>
+                <h6>React</h6>
+              </div>
+              <div class="skill">
+                <i class="bx bxl-javascript bx-lg"></i>
+                <h6>Javascript</h6>
+              </div>
+              <div class="skill">
+                <i class="bx bxl-css3 bx-lg"></i>
+                <h6>Css3</h6>
+              </div>
+              <div class="skill">
+                <i class="bx bxl-html5 bx-lg"></i>
+                <h6>Html5</h6>
+              </div>
+              <div class="skill">
+                <i class="bx bxl-nodejs bx-lg"></i>
+                <h6>Node js</h6>
+              </div>
+              <div class="skill">
+                <i class="bx bxl-figma bx-lg"></i>
+                <h6>Figma</h6>
+              </div>
+              <div class="skill">
+                <i class="bx bxl-github bx-lg"></i>
+                <h6>Guthub</h6>
+              </div>
+              <div class="skill">
+                <i class="bx bxl-unity bx-lg"></i>
+                <h6>Unity</h6>
+              </div>
+              <div class="skill">
+                <i class="bx bxl-wordpress bx-lg"></i>
+                <h6>Wordpress</h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <h3>Otras habilidades</h3>
+            <div class="contenido-habilidades">
+              <div class="skill">
+                <i class="bx bx-video bx-lg"></i>
+                <h6>Videos</h6>
+              </div>
+              <div class="skill">
+                <i class="bx bxs-camera bx-lg"></i>
+                <h6>Fotografía</h6>
+              </div>
+              <div class="skill">
+                <i class="bx bx-joystick bx-lg"></i>
+                <h6>Video juegos 2d</h6>
+              </div>
+              <div class="skill">
+                <i class="bx bxl-blender bx-lg"></i>
+                <h6>Blender</h6>
+              </div>
+              <div class="skill">
+                <i class="bx bx-image bx-lg"></i>
+                <h6>Edicion</h6>
+              </div>
+              <div class="skill">
+                <i class="bx bxl-visual-studio bx-lg"></i>
+                <h6>Visual studio</h6>
+              </div>
+              <div class="skill">
+                <i class="bx bxs-file-json bx-lg"></i>
+                <h6>Json</h6>
+              </div>
+              <div class="skill">
+                <i class="bx bx-data bx-lg"></i>
+                <h6>Mysql</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION SERVICES -->
+    <section class="services" id="servicios">       
+        <div class="container">
+            <h2 class="heading">Servicios</h2>
+        
+            <div class="box-container">
+        
+                <div class="box">
+                    <!-- <img src="imag/icon-1.png" alt=""> -->
+                    <div class="logo-icon">
+                        <i class="bx bxl-html5 bx-lg"></i>
+                    </div>
+                    <h3>Web desing</h3>
+                    <p>Si crees que un buen diseño es costoso, debes mirar el costo del diseño malo</p>
+                </div>
+        
+                <div class="box">
+                    <!-- <img src="img/icon-2.png" alt=""> -->
+                    <div class="logo-icon">
+                        <i class="bx bx-user bx-lg"></i>
+                    </div>
+                    <h3>UX/UI Desing</h3>
+                    <p>¿Realmete sabes lo que tu cliente necesita? Los usuarios no siempre son lógicos, al menos no superficialmente. Para ser un gran diseñador, debe analizar con más detalle cómo piensan y actúan las personas</p>
+                    
+                </div>
+        
+                <div class="box">
+                    <!-- <img src="img/icon-3.png" alt=""> -->
+                    <div class="logo-icon">
+                        <i class="bx bxs-pencil bx-lg"></i>
+                    </div>
+                    <h3>Marketing Digital</h3>
+                    <p>El mejor marketing es el que no parece marketing. (Tom Fishburne)</p>
+                    
+                </div>
+        
+                <div class="box">
+                    <!-- <img src="imag/icon-4.png" alt=""> -->
+                    <div class="logo-icon">
+                        <i class="bx bxs-pen bx-lg"></i>
+                    </div>
+                    <h3>Product Desing</h3>
+                    <p>¿Quieres que tus usuarios se enamoren de tus diseños? Enamórate de tus usuarios</p>
+                    <!-- <a href="#" class="btn">read more</a> -->
+                </div>
+        
+                <div class="box">
+                    <!-- <img src="image/icon-5.png" alt=""> -->
+                    <div class="logo-icon">
+                        <i class="bx bxl-react bx-lg"></i>
+                    </div>
+                    <h3>Front-End Developer</h3>
+                    <p>Si queremos que los usuarios les guste nuestro software, debemos diseñarlo para que se comporte como una persona agradable: respetuosa, generosa y servicial</p>
+                    <!-- <a href="#" class="btn">read more</a> -->
+                </div>
+        
+                <div class="box">
+                    <!-- <img src="image/icon-6.png" alt=""> -->
+                    <div class="logo-icon">
+                        <i class="bx bx-video bx-lg"></i>
+                    </div>
+                    <h3>Audio Visual</h3>
+                    <p>El contenido es fuego, las redes sociales son gasolina. (Jay Baer)</p>
+                    <!-- <a href="#" class="btn">read more</a> -->
+                </div>
+        
+            </div>
+        
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+      <div class="contenido-seccion">
+        <h2>Curriculum</h2>
+        <div class="fila">
+          <div class="col izquierda">
+            <h3>Educación</h3>
+            <div class="item izq">
+              <h4>Entornos virtuales y Negocios Digitales</h4>
+              <span class="casa">Universidad Tecnologica de Xicotepec de Juárez</span>
+              <span class="fecha">2019 - 2023</span>
+              <p>
+                Realice mi carrera universitaria en la universidad ya mencionada lo cual me tomo 3 años y 8 meses
+                en los que adquirí conocimientos en diferentes aréas
+              </p>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>Certificaciones</h4>
+              <span class="casa">Certificaciones Realizadas</span>
+              <span class="fecha">2019 - 2022</span>
+              <p>
+                Certificado ux designer fundación Carlos Slim <hr> <br>
+                Certificado HTML por Solo Learn <hr> <br>
+                Certificado de resolución de problemas <hr> <br>
+                Certificado Nuevas Metodologías por Microsoft <hr> <br>
+                Certificado Desarrollador Front-end <hr> <br>
+
+              </p>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col derecha">
+            <h3>Experiencia de trabajo</h3>
+            <div class="item der">
+              <h4>Desarrollador Front-End</h4>
+              <span class="casa">Floratepec</span>
+              <span class="fecha">2020 - 2021</span>
+              <p>
+                En los meses mayo - agosto  trabaje como desarrollador Frontend, lo cual era mi primera experiencia como Desarrollador ya que en el proyecto me toco realizar la parte frontal de un E-comerce 
+              </p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Diseñador Web</h4>
+              <span class="casa">Diseño (UX)</span>
+              <span class="fecha">2021 - 2022</span>
+              <p>
+                trabaje como colaborador en un proyecto lo cual solo se realizo la parte del diseño en este caso trabajamos mas en la parte de la experiencia de usuarios (UX)
+              </p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Diseño (UI)</h4>
+              <span class="casa">Diseñador movil</span>
+              <span class="fecha">2021 - 2022</span>
+              <p>
+                proyecto realizado para la mejora de una aplicación de música lo cual consistía crear una interfaz mucho mas atractiva y limpia a la vez agregando así (UI/UX)
+              </p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+      <div class="contenido-seccion">
+        <h2>Portafolio</h2>
+        <div class="galeria">
+          <div class="proyecto">
+            <img src="img/app-clima.png" alt="" />
+            <div class="overlay">
+              <h3>Diseño de app de clima</h3>
+              <p>Fotografía</p>
+              <p>UX/UI</p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="img/Clon-codecamp.png" alt="" />
+            <div class="overlay">
+              <h3>Desarrollo web</h3>
+              <p>Fotografia</p>
+              <p>Codigo fuente github</p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="img/app-musica.png" alt="" />
+            <div class="overlay">
+              <h3>Diseño de App-musica</h3>
+              <p>Fotografia</p>
+              <p>UX/UI</p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="img/formulario.png" alt="" />
+            <div class="overlay">
+              <h3>Diseño Creativo</h3>
+              <p>Fotografia</p>
+              <p>Codigo fuente github</p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="img/leanding.png" alt="" />
+            <div class="overlay">
+              <h3>Diseño Leanding page</h3>
+              <p>Fotografía</p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="img/Perrito.png" alt="" />
+            <div class="overlay">
+              <h3>Diseño Creativo</h3>
+              <p>Fotografía</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+      <div class="contenido-seccion">
+        <h2>CONTACTO</h2>
+        <div class="fila">
+          <!-- Formulario -->
+          <div class="col">
+            <input type="text" placeholder="Tú Nombre" />
+            <input type="text" placeholder="Número telefónico" />
+            <input type="text" placeholder="Dirección de correo" />
+            <input type="text" placeholder="Tema" />
+            <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+            <button>
+              Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+              <span class="overlay"></span>
+            </button>
+          </div>
+          <!-- Mapa -->
+          <div class="col">
+
+          </div>
+
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-angles-up"></i>
+      </a>
+      <div class="redes">
+        <a href="https://www.facebook.com/" target="_blank"><i class='bx bxl-facebook'></i></a>
+        <a href="#"><i class='bx bxl-instagram'></i></i></a>
+        <a href="#"><i class="bx bxl-tiktok"></i></a>
+        <a href="#"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/marcosfrontend" target="_blank"><i class="bx bxl-github"></i></a>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="js/script.js"></script>
+    <script src="js/app.js"></script>
+    
+  </body>
+</html>

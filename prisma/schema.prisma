@@ -1,0 +1,15 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model contacto {
+  idcontacto Int    @id
+  nombre     String @db.VarChar(45)
+  correo     String @db.VarChar(45)
+  telefono   String @db.VarChar(45)
+}
